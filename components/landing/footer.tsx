@@ -10,12 +10,14 @@ export function Footer() {
             target="_blank" 
             rel="noopener noreferrer"
             className="hover:text-[#A3E635] transition-colors"
+            aria-label="Entre em contato pelo WhatsApp"
           >
             WhatsApp
           </Link>
           <Link 
             href="mailto:mateus@hahn.dev" 
             className="hover:text-[#A3E635] transition-colors"
+            aria-label="Enviar e-mail para Mateus Hahn"
           >
             E-mail
           </Link>
