@@ -8,7 +8,6 @@ const nextConfig = {
   poweredByHeader: false,
   trailingSlash: false,
   reactStrictMode: true,
-  swcMinify: true,
   async headers() {
     return [
       {
