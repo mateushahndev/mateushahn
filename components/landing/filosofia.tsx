@@ -27,32 +27,14 @@ export function Filosofia() {
           {/* Foto - lado direito */}
           <div className="flex justify-center md:justify-end">
             <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96">
-              {/* Placeholder: borda pontilhada + ícone de usuário */}
-              <div className="w-full h-full border-2 border-dashed border-[#2A2A2A] rounded-[5px] flex items-center justify-center bg-[#0D0D0D]">
-                <div className="text-center">
-                  <svg 
-                    className="w-16 h-16 text-[#2A2A2A] mx-auto mb-2" 
-                    fill="none" 
-                    stroke="currentColor" 
-                    viewBox="0 0 24 24"
-                  >
-                    <path 
-                      strokeLinecap="round" 
-                      strokeLinejoin="round" 
-                      strokeWidth={1.5} 
-                      d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" 
-                    />
-                  </svg>
-                  <p className="text-[#A0A0A0] text-sm">
-                    Sua foto aqui
-                  </p>
-                  <p className="text-[#A0A0A0] text-xs mt-1">
-                    400x400px · PNG ou JPG
-                  </p>
-                </div>
-              </div>
-
-              {/* Borda decorativa verde (opcional) */}
+              <Image
+                src="/landing/mateus.png"
+                alt="Mateus Hahn - Desenvolvedor Web"
+                fill
+                className="object-cover rounded-[5px]"
+                priority
+              />
+              {/* Borda decorativa verde */}
               <div className="absolute -bottom-3 -right-3 w-full h-full border border-[#A3E635]/20 rounded-[5px] -z-10" />
             </div>
           </div>
