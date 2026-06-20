@@ -24,13 +24,13 @@ const diferenciais = [
   },
   {
     id: '02',
-    icon: Bot,
-    title: 'Chatbot de IA',
-    subtitle: 'Atendimento 24 horas',
-    text: 'Um assistente virtual configurado com todas as informações do seu negócio: horários, serviços, localização, dúvidas frequentes. Enquanto você está ocupado, em uma consulta, ou fora do horário comercial, o chatbot responde seus clientes. Nenhum concorrente na região entrega isso.',
-    cta: 'Quero Isso no Meu Site',
-    image: '/landing/chatbot.png',
-    alt: 'Chatbot de IA atendendo cliente automaticamente',
+    icon: Shield,
+    title: 'GEO — Otimização para IA',
+    subtitle: 'Seu site pronto para a nova era das buscas',
+    text: 'O Google mudou. Hoje, as pessoas perguntam e a IA responde — citando os sites que considera mais confiáveis. Eu preparo cada site com dados estruturados, FAQ otimizada e conteúdo semântico para que sua empresa seja citada por essas inteligências artificiais. Enquanto seu concorrente não aparece em lugar nenhum, você é a resposta que a IA recomenda.',
+    cta: 'Quero Ser Citado pela IA',
+    image: null,
+    alt: 'IA respondendo com base em sites confiáveis',
   },
   {
     id: '03',
@@ -44,6 +44,16 @@ const diferenciais = [
   },
   {
     id: '04',
+    icon: Bot,
+    title: 'Chatbot de IA',
+    subtitle: 'Atendimento 24 horas',
+    text: 'Um assistente virtual configurado com todas as informações do seu negócio: horários, serviços, localização, dúvidas frequentes. Enquanto você está ocupado, em uma consulta, ou fora do horário comercial, o chatbot responde seus clientes. Nenhum concorrente na região entrega isso.',
+    cta: 'Quero Isso no Meu Site',
+    image: '/landing/chatbot.png',
+    alt: 'Chatbot de IA atendendo cliente automaticamente',
+  },
+  {
+    id: '05',
     icon: Smartphone,
     title: 'Design responsivo',
     subtitle: 'Funciona em qualquer celular',
@@ -53,7 +63,7 @@ const diferenciais = [
     alt: 'Site responsivo funcionando em celular e desktop',
   },
   {
-    id: '05',
+    id: '06',
     icon: Cloud,
     title: 'Hospedagem gratuita',
     subtitle: 'Sem custo mensal escondido',
@@ -61,16 +71,6 @@ const diferenciais = [
     cta: 'Quero Começar',
     image: '/landing/cloud.png',
     alt: 'Dashboard da Vercel mostrando plano gratuito',
-  },
-  {
-    id: '06',
-    icon: Shield,
-    title: 'Segurança e confiança',
-    subtitle: 'Seu site protegido e confiável',
-    text: 'Seu site precisa passar confiança. Certificado SSL, proteção contra ataques e backups automáticos garantem que seu negócio esteja sempre no ar e seguro. Seus clientes confiam em quem tem um site profissional e protegido.',
-    cta: 'Quero um Site Seguro',
-    image: '/landing/teste.png',
-    alt: 'Escudo representando segurança digital',
   },
 ]
 
