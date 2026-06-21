@@ -19,7 +19,7 @@ const diferenciais = [
     subtitle: 'SEO local de verdade',
     text: 'Quando alguém pesquisa "dentista em Maringá" ou "restaurante em Londrina", o Google mostra sites — não perfis de Instagram. A maioria dos pequenos negócios está invisível nessas buscas. O concorrente aparece primeiro. Você não. Eu otimizo cada página do seu site para ranquear nas buscas locais que importam para o seu negócio. Não é SEO genérico — é feito para sua cidade e seu serviço.',
     cta: 'Solicitar Orçamento Grátis',
-    image: '/landing/seo-geo.png',
+    image: '/landing/seo.png',
     alt: 'Resultados de busca no Google mostrando sites de empresas locais',
   },
   {
@@ -29,7 +29,7 @@ const diferenciais = [
     subtitle: 'Seu site pronto para a nova era das buscas',
     text: 'O Google mudou. Hoje, as pessoas perguntam e a IA responde — citando os sites que considera mais confiáveis. Eu preparo cada site com dados estruturados, FAQ otimizada e conteúdo semântico para que sua empresa seja citada por essas inteligências artificiais. Enquanto seu concorrente não aparece em lugar nenhum, você é a resposta que a IA recomenda.',
     cta: 'Quero Ser Citado pela IA',
-    image: null,
+    image: '/landing/geo.png',
     alt: 'IA respondendo com base em sites confiáveis',
   },
   {
@@ -49,7 +49,7 @@ const diferenciais = [
     subtitle: 'Atendimento 24 horas',
     text: 'Um assistente virtual configurado com todas as informações do seu negócio: horários, serviços, localização, dúvidas frequentes. Enquanto você está ocupado, em uma consulta, ou fora do horário comercial, o chatbot responde seus clientes. Nenhum concorrente na região entrega isso.',
     cta: 'Quero Isso no Meu Site',
-    image: '/landing/chatbot.png',
+    image: '/landing/chat.png',
     alt: 'Chatbot de IA atendendo cliente automaticamente',
   },
   {
