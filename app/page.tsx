@@ -7,6 +7,7 @@ import { Filosofia } from '@/components/landing/filosofia'
 import { FAQ } from '@/components/landing/faq'
 import { CtaFinal } from '@/components/landing/cta-final'
 import { Footer } from '@/components/landing/footer'
+import { ChatWidget } from '@/components/chat/ChatWidget'
 
 const faqData = [
   {
@@ -118,6 +119,7 @@ export default function Home() {
         <FAQ />
         <CtaFinal />
         <Footer />
+        <ChatWidget />
       </main>
     </>
   )
