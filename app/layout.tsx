@@ -53,9 +53,9 @@ export const metadata: Metadata = {
     creator: '@mateushahn',
   },
   alternates: {
-    canonical: 'https://mateushahn.dev',
+    canonical: 'https://mateushahn.com',
     languages: {
-      'pt-BR': 'https://mateushahn.dev',
+      'pt-BR': 'https://mateushahn.com',
     },
   },
   verification: {
@@ -74,7 +74,6 @@ export default function RootLayout({
       <head>
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#0D0D0D" />
-        <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
