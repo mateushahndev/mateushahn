@@ -37,7 +37,7 @@ export function Hero() {
 
           {/* CTA e texto abaixo */}
           <div className="flex flex-col items-start md:items-center gap-4 pt-4">
-            <Link href="https://wa.me/SEU_NUMERO" target="_blank" rel="noopener noreferrer" aria-label="Solicitar orçamento via WhatsApp">
+            <Link href="https://wa.me/5542998530633?text=Ol%C3%A1%20Mateus%2C%20vim%20pelo%20seu%20site%20e%20gostaria%20de%20um%20or%C3%A7amento" target="_blank" rel="noopener noreferrer" aria-label="Solicitar orçamento via WhatsApp">
               <Button className="bg-[#A3E635] hover:bg-[#8BCF2A] text-[#0D0D0D] font-semibold px-8 py-6 text-base rounded-[5px] group transition-all duration-300">
                 Solicitar Orçamento Grátis
                 <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />

@@ -133,7 +133,7 @@ export function Diferenciais() {
                     {item.text}
                   </p>
                   <div className="pt-2">
-                    <Link href="https://wa.me/SEU_NUMERO" target="_blank" rel="noopener noreferrer">
+                    <Link href="https://wa.me/5542998530633?text=Ol%C3%A1%20Mateus%2C%20vim%20pelo%20seu%20site%20e%20gostaria%20de%20um%20or%C3%A7amento" target="_blank" rel="noopener noreferrer">
                       <Button 
                         variant="outline" 
                         className="border-[#A3E635] text-[#A3E635] hover:bg-[#A3E635] hover:text-[#0D0D0D] px-6 py-5 text-sm rounded-[5px] group transition-all duration-300"

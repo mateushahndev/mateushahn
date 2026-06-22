@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: [],
     },
-    sitemap: 'https://mateushahn.dev/sitemap.xml',
+    sitemap: 'https://mateushahn.com/sitemap.xml',
   }
 }

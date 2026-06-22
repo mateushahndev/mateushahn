@@ -31,11 +31,11 @@ export const metadata: Metadata = {
     title: 'Mateus Hahn | Criação de Sites para Pequenos Negócios',
     description:
       'Sites profissionais, rápidos e otimizados para o Google. Atendimento com chatbot de IA 24h e hospedagem gratuita.',
-    url: 'https://mateushahn.dev',
+    url: 'https://mateushahn.com',
     siteName: 'Mateus Hahn',
     images: [
       {
-        url: 'https://mateushahn.dev/og-image.jpg',
+        url: 'https://mateushahn.com/og-image.jpg',
         width: 1200,
         height: 630,
         alt: 'Mateus Hahn - Criação de Sites para Pequenos Negócios',
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     title: 'Mateus Hahn | Criação de Sites para Pequenos Negócios',
     description:
       'Sites profissionais, rápidos e otimizados para o Google. Atendimento com chatbot de IA 24h.',
-    images: ['https://mateushahn.dev/og-image.jpg'],
+    images: ['https://mateushahn.com/og-image.jpg'],
     creator: '@mateushahn',
   },
   alternates: {

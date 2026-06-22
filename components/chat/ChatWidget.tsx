@@ -238,16 +238,17 @@ export function ChatWidget() {
           </form>
 
           {/* Rodapé WhatsApp */}
-          <div className="rounded-b-[5px] border-t border-[#2A2A2A] bg-[#0D0D0D] px-4 py-2 text-center">
-            <a
-              href="https://wa.me/SEU_NUMERO"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-xs text-[#A0A0A0] hover:text-[#A3E635] transition-colors"
-            >
+          {/* Rodapé WhatsApp - DIV INTEIRA CLICÁVEL */}
+          <a
+            href="https://wa.me/5542998530633?text=Ol%C3%A1%20Mateus%2C%20vim%20pelo%20seu%20site%20e%20gostaria%20de%20um%20or%C3%A7amento"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block rounded-b-[5px] border-t border-[#2A2A2A] bg-[#0D0D0D] px-4 py-2 text-center transition-colors hover:bg-[#1A1A1A]"
+          >
+            <span className="text-xs text-[#A0A0A0] hover:text-[#A3E635] transition-colors">
               Falar no WhatsApp →
-            </a>
-          </div>
+            </span>
+          </a>
         </div>
       )}
     </>

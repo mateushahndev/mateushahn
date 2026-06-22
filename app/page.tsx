@@ -37,11 +37,11 @@ const jsonLd = {
   '@graph': [
     {
       '@type': 'Person',
-      '@id': 'https://mateushahn.dev/#person',
+      '@id': 'https://mateushahn.com/#person',
       name: 'Mateus Hahn',
       jobTitle: 'Desenvolvedor Web',
       description: 'Criação de sites profissionais para pequenos negócios no Paraná.',
-      url: 'https://mateushahn.dev',
+      url: 'https://mateushahn.com',
       sameAs: [
         'https://github.com/mateushahndev',
         'https://linkedin.com/in/mateushahn',
@@ -59,23 +59,23 @@ const jsonLd = {
     },
     {
       '@type': 'WebSite',
-      '@id': 'https://mateushahn.dev/#website',
-      url: 'https://mateushahn.dev',
+      '@id': 'https://mateushahn.com/#website',
+      url: 'https://mateushahn.com',
       name: 'Mateus Hahn | Criação de Sites',
       description: 'Sites profissionais, rápidos e otimizados para o Google. Atendimento com chatbot de IA 24h e hospedagem gratuita.',
       publisher: {
-        '@id': 'https://mateushahn.dev/#person',
+        '@id': 'https://mateushahn.com/#person',
       },
       inLanguage: 'pt-BR',
     },
     {
       '@type': 'Service',
-      '@id': 'https://mateushahn.dev/#service',
+      '@id': 'https://mateushahn.com/#service',
       name: 'Criação de Sites para Pequenos Negócios',
       serviceType: 'Desenvolvimento Web',
       description: 'Sites rápidos, otimizados para o Google e com chatbot de IA 24h. Design responsivo, SEO local, hospedagem gratuita.',
       provider: {
-        '@id': 'https://mateushahn.dev/#person',
+        '@id': 'https://mateushahn.com/#person',
       },
       areaServed: {
         '@type': 'AdministrativeArea',
@@ -83,13 +83,13 @@ const jsonLd = {
       },
       availableChannel: {
         '@type': 'ServiceChannel',
-        serviceUrl: 'https://wa.me/SEU_NUMERO',
+        serviceUrl: 'https://wa.me/5542998530633?text=Ol%C3%A1%20Mateus%2C%20vim%20pelo%20seu%20site%20e%20gostaria%20de%20um%20or%C3%A7amento',
         availabilityMethod: 'WhatsApp',
       },
     },
     {
       '@type': 'FAQPage',
-      '@id': 'https://mateushahn.dev/#faqpage',
+      '@id': 'https://mateushahn.com/#faqpage',
       mainEntity: faqData.map((faq) => ({
         '@type': 'Question',
         name: faq.question,
