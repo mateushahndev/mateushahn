@@ -21,6 +21,18 @@ export function Footer() {
           >
             E-mail
           </Link>
+          <Link 
+            href="/politica-privacidade" 
+            className="hover:text-[#A3E635] transition-colors"
+          >
+            Privacidade
+          </Link>
+          <Link 
+            href="/termos-uso" 
+            className="hover:text-[#A3E635] transition-colors"
+          >
+            Termos
+          </Link>
         </div>
         <p className="text-[#A0A0A0] text-sm">
           © 2026 Mateus Hahn. Todos os direitos reservados.
