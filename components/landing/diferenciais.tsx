@@ -27,7 +27,7 @@ const diferenciais = [
     icon: Shield,
     title: 'GEO — Otimização para IA',
     subtitle: 'Seu site pronto para a nova era das buscas',
-    text: 'O Google mudou. Hoje, as pessoas perguntam e a IA responde — citando os sites que considera mais confiáveis. Eu preparo cada site com dados estruturados, FAQ otimizada e conteúdo semântico para que sua empresa seja citada por essas inteligências artificiais. Enquanto seu concorrente não aparece em lugar nenhum, você é a resposta que a IA recomenda.',
+    text: 'O Google mudou. Hoje, quando alguém pesquisa "melhor dentista em Maringá", a IA responde na hora — e cita os sites que considera confiáveis. Se o seu não está preparado, você nem existe nessa conversa. Eu preparo cada site com dados estruturados, FAQ otimizada e conteúdo semântico para que sua empresa seja citada por essas inteligências artificiais. Enquanto seu concorrente está invisível, você é a resposta que a IA recomenda.',
     cta: 'Quero Ser Citado pela IA',
     image: '/landing/geo.png',
     alt: 'IA respondendo com base em sites confiáveis',
