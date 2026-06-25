@@ -8,6 +8,23 @@ const nextConfig = {
   poweredByHeader: false,
   trailingSlash: false,
   reactStrictMode: true,
+  
+  async redirects() {
+    return [
+      {
+        source: '/:path*',
+        has: [
+          {
+            type: 'host',
+            value: 'mateushahn.vercel.app',
+          },
+        ],
+        destination: 'https://mateushahn.com/:path*',
+        permanent: true,
+      },
+    ]
+  },
+  
   async headers() {
     return [
       {
