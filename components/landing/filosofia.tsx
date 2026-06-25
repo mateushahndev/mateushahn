@@ -28,7 +28,7 @@ export function Filosofia() {
           <div className="flex justify-center md:justify-end">
             <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96">
               <Image
-                src="/landing/mateus.png"
+                src="/landing/mateus.webp"
                 alt="Mateus Hahn - Desenvolvedor Web"
                 fill
                 className="object-cover rounded-[5px]"

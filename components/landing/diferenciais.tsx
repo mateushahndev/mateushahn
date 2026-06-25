@@ -19,7 +19,7 @@ const diferenciais = [
     subtitle: 'SEO local de verdade',
     text: 'Quando alguém pesquisa "dentista em Maringá" ou "restaurante em Londrina", o Google mostra sites — não perfis de Instagram. A maioria dos pequenos negócios está invisível nessas buscas. O concorrente aparece primeiro. Você não. Eu otimizo cada página do seu site para ranquear nas buscas locais que importam para o seu negócio. Não é SEO genérico — é feito para sua cidade e seu serviço.',
     cta: 'Solicitar Orçamento Grátis',
-    image: '/landing/seo.png',
+    image: '/landing/seo.webp',
     alt: 'Resultados de busca no Google mostrando sites de empresas locais',
   },
   {
@@ -29,7 +29,7 @@ const diferenciais = [
     subtitle: 'Seu site pronto para a nova era das buscas',
     text: 'O Google mudou. Hoje, quando alguém pesquisa "melhor dentista em Maringá", a IA responde na hora — e cita os sites que considera confiáveis. Se o seu não está preparado, você nem existe nessa conversa. Eu preparo cada site com dados estruturados, FAQ otimizada e conteúdo semântico para que sua empresa seja citada por essas inteligências artificiais. Enquanto seu concorrente está invisível, você é a resposta que a IA recomenda.',
     cta: 'Quero Ser Citado pela IA',
-    image: '/landing/geo.png',
+    image: '/landing/geo.webp',
     alt: 'IA respondendo com base em sites confiáveis',
   },
   {
@@ -39,7 +39,7 @@ const diferenciais = [
     subtitle: 'Carrega em 2 segundos',
     text: 'Sites lentos perdem visitantes antes mesmo de mostrar o que você oferece. O Google também penaliza — você some das buscas e não sabe por quê. Meus sites entregam nota máxima no Google PageSpeed. Carregam em menos de 2 segundos — em qualquer dispositivo.',
     cta: 'Quero um Site Rápido',
-    image: '/landing/performance.png',
+    image: '/landing/performance.webp',
     alt: 'Google PageSpeed Insights mostrando nota máxima em performance',
   },
   {
@@ -49,7 +49,7 @@ const diferenciais = [
     subtitle: 'Atendimento 24 horas',
     text: 'Um assistente virtual configurado com todas as informações do seu negócio: horários, serviços, localização, dúvidas frequentes. Enquanto você está ocupado, em uma consulta, ou fora do horário comercial, o chatbot responde seus clientes. Nenhum concorrente na região entrega isso.',
     cta: 'Quero Isso no Meu Site',
-    image: '/landing/chat.png',
+    image: '/landing/chat.webp',
     alt: 'Chatbot de IA atendendo cliente automaticamente',
   },
   {
@@ -59,7 +59,7 @@ const diferenciais = [
     subtitle: 'Funciona em qualquer celular',
     text: 'Seu site quebrado no celular está afastando a maioria dos seus clientes. Cada site que entrego funciona perfeitamente em qualquer tela — sem texto minúsculo, sem botão impossível de clicar.',
     cta: 'Solicitar Orçamento Grátis',
-    image: '/landing/responsivo.png',
+    image: '/landing/responsivo.webp',
     alt: 'Site responsivo funcionando em celular e desktop',
   },
   {
@@ -69,7 +69,7 @@ const diferenciais = [
     subtitle: 'Sem custo mensal escondido',
     text: 'A hospedagem é gratuita. Você só precisa de um domínio com o nome do seu negócio — cerca de R$50 por ano. Nada de mensalidade obrigatória ou surpresas na fatura.',
     cta: 'Quero Começar',
-    image: '/landing/cloud.png',
+    image: '/landing/cloud.webp',
     alt: 'Dashboard da Vercel mostrando plano gratuito',
   },
 ]
