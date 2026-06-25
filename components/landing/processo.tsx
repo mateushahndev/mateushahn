@@ -10,7 +10,7 @@ const passos = [
   },
   {
     numero: '02',
-    titulo: 'Construo seu site em até 7 dias',
+    titulo: 'Construo seu site em até 14 dias',
     descricao: 'Entrego um site rápido, bonito e otimizado. Você acompanha o processo e aprova cada etapa.'
   },
   {

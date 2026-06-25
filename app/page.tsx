@@ -20,7 +20,7 @@ const faqData = [
   },
   {
     question: 'Quanto tempo leva para ficar pronto?',
-    answer: 'Entre 5 e 7 dias úteis, dependendo da complexidade do projeto. Você acompanha todo o processo e aprova cada etapa.'
+    answer: 'Entre 7 e 14 dias, dependendo da complexidade do projeto. Você acompanha todo o processo e aprova cada etapa.'
   },
   {
     question: 'O site vai aparecer no Google?',
