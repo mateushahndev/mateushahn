@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: 'seu-google-verification-code',
+    google: 'gEETncCm1v6caHy_nHk2N0j4PbkoBeBlh7fsBtUkxgQ',
   },
   category: 'technology',
 }
@@ -74,6 +74,7 @@ export default function RootLayout({
       <head>
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#0D0D0D" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
@@ -82,29 +83,13 @@ export default function RootLayout({
           crossOrigin="anonymous"
         />
         <link rel="dns-prefetch" href="https://wa.me" />
+        <meta
+          name="google-site-verification"
+          content="gEETncCm1v6caHy_nHk2N0j4PbkoBeBlh7fsBtUkxgQ"
+        />
       </head>
       <body className="bg-[#0D0D0D] text-white antialiased">
         {children}
-
-        {/* Google Analytics - descomente quando tiver o ID */}
-        {/*
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-SEU-CODIGO"
-          strategy="afterInteractive"
-        />
-        <Script
-          id="google-analytics"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-SEU-CODIGO');
-            `,
-          }}
-        />
-        */}
       </body>
     </html>
   )
