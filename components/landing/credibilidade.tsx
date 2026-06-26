@@ -13,8 +13,8 @@ import {
 const badges = [
   { 
     icon: Gauge, 
-    label: 'Google PageSpeed 100',
-    description: 'Nota máxima em performance'
+    label: 'Google PageSpeed 95+',
+    description: 'Performance de elite comprovada'
   },
   { 
     icon: MapPin, 

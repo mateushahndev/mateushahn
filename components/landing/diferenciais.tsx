@@ -40,7 +40,7 @@ const diferenciais = [
     text: 'Sites lentos perdem visitantes antes mesmo de mostrar o que você oferece. O Google também penaliza — você some das buscas e não sabe por quê. Meus sites entregam nota máxima no Google PageSpeed. Carregam em menos de 2 segundos — em qualquer dispositivo.',
     cta: 'Quero um Site Rápido',
     image: '/landing/performance.webp',
-    alt: 'Google PageSpeed Insights mostrando nota máxima em performance',
+    alt: 'Google PageSpeed Insights mostrando Performance de elite comprovada',
   },
   {
     id: '04',
