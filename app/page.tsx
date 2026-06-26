@@ -1,6 +1,7 @@
 import { Hero } from '@/components/landing/hero'
 import { Credibilidade } from '@/components/landing/credibilidade'
 import { Tese } from '@/components/landing/tese'
+import { Cases } from '@/components/landing/cases'
 import { Diferenciais } from '@/components/landing/diferenciais'
 import { Processo } from '@/components/landing/processo'
 import { Filosofia } from '@/components/landing/filosofia'
@@ -8,6 +9,8 @@ import { FAQ } from '@/components/landing/faq'
 import { CtaFinal } from '@/components/landing/cta-final'
 import { Footer } from '@/components/landing/footer'
 import { ChatWidget } from '@/components/chat/ChatWidget'
+import { Garantia } from '@/components/landing/garantia'
+import { Objecoes } from '@/components/landing/objecoes'
 
 const faqData = [
   {
@@ -113,8 +116,11 @@ export default function Home() {
         <Hero />
         <Credibilidade />
         <Tese />
+        <Cases />
         <Diferenciais />
+        <Objecoes />
         <Processo />
+        <Garantia />
         <Filosofia />
         <FAQ />
         <CtaFinal />
