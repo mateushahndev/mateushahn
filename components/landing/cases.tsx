@@ -4,7 +4,7 @@ import { CheckCircle, XCircle } from 'lucide-react'
 const cases = [
   {
     id: '01',
-    image: '/landing/casesalao.webp',
+    image: '/landing/casepetshop.webp',
     alt: 'Site de restaurante - depois',
     before: {
       label: 'Antes',
@@ -50,7 +50,7 @@ const cases = [
   },
   {
     id: '03',
-    image: '/landing/casepetshop.webp',
+    image: '/landing/casesalao.webp',
     alt: 'Site de escritório - depois',
     before: {
       label: 'Antes',
