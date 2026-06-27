@@ -90,6 +90,24 @@ export default function RootLayout({
       </head>
       <body className="bg-[#0D0D0D] text-white antialiased">
         {children}
+
+        {/* Google Analytics */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-EFG4Y7J16G"
+          strategy="afterInteractive"
+        />
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-EFG4Y7J16G');
+            `,
+          }}
+        />
       </body>
     </html>
   )
