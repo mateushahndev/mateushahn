@@ -72,6 +72,20 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className={spaceGrotesk.className}>
       <head>
+        {/* Google Tag Manager */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+              })(window,document,'script','dataLayer','GTM-57SZLMK7');
+            `,
+          }}
+        />
+        {/* End Google Tag Manager */}
+
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#0D0D0D" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
@@ -89,9 +103,20 @@ export default function RootLayout({
         />
       </head>
       <body className="bg-[#0D0D0D] text-white antialiased">
+        {/* Google Tag Manager (noscript) */}
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-57SZLMK7"
+            height="0"
+            width="0"
+            style={{ display: 'none', visibility: 'hidden' }}
+          />
+        </noscript>
+        {/* End Google Tag Manager (noscript) */}
+
         {children}
 
-        {/* Google Analytics */}
+        {/* Google Analytics (GA4) */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-EFG4Y7J16G"
           strategy="afterInteractive"
@@ -125,8 +150,8 @@ export default function RootLayout({
               },
               sameAs: [
                 'https://github.com/mateushahndev',
-                'https://linkedin.com/in/mateushahndev',
-                'https://instagram.com/mateushahndev',
+                'https://linkedin.com/in/mateushahn',
+                'https://instagram.com/mateushahn',
               ],
               email: 'contato@mateushahn.com',
               address: {
