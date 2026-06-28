@@ -11,6 +11,7 @@ import { Footer } from '@/components/landing/footer'
 import { ChatWidget } from '@/components/chat/ChatWidget'
 import { Garantia } from '@/components/landing/garantia'
 import { Objecoes } from '@/components/landing/objecoes'
+import { useScrollBottom } from '@/hooks/useScrollBottom'
 
 const faqData = [
   {
@@ -106,6 +107,8 @@ const jsonLd = {
 }
 
 export default function Home() {
+  useScrollBottom()
+
   return (
     <>
       <script

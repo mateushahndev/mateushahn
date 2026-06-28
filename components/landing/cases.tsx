@@ -1,11 +1,15 @@
+'use client'
+
 import Image from 'next/image'
 import { CheckCircle, XCircle } from 'lucide-react'
+import { analytics } from '@/lib/analytics'
 
 const cases = [
   {
     id: '01',
-    image: '/landing/casepetshop.webp',
-    alt: 'Site de restaurante - depois',
+    image: '/landing/casesalao.webp',
+    alt: 'Site de salão de beleza - depois',
+    label: 'salao-beleza',
     before: {
       label: 'Antes',
       items: [
@@ -28,7 +32,8 @@ const cases = [
   {
     id: '02',
     image: '/landing/caseloja.webp',
-    alt: 'Site de clínica - depois',
+    alt: 'Site de loja de moda - depois',
+    label: 'loja-moda',
     before: {
       label: 'Antes',
       items: [
@@ -50,8 +55,9 @@ const cases = [
   },
   {
     id: '03',
-    image: '/landing/casesalao.webp',
-    alt: 'Site de escritório - depois',
+    image: '/landing/casepetshop.webp',
+    alt: 'Site de petshop - depois',
+    label: 'pet-shop',
     before: {
       label: 'Antes',
       items: [
@@ -74,10 +80,13 @@ const cases = [
 ]
 
 export function Cases() {
+  const handlePortfolioClick = (label: string) => {
+    analytics.portfolioView(label)
+  }
+
   return (
     <section className="py-16 md:py-24 px-4 md:px-6 border-t border-[#2A2A2A]">
       <div className="max-w-6xl mx-auto">
-        {/* Cabeçalho */}
         <div className="text-center mb-12 md:mb-16">
           <h2 className="text-3xl md:text-5xl font-bold leading-[1.1] tracking-tight">
             É assim que seu site vai ficar
@@ -87,14 +96,13 @@ export function Cases() {
           </p>
         </div>
 
-        {/* Cards */}
         <div className="grid md:grid-cols-3 gap-6 md:gap-8">
           {cases.map((item) => (
             <div
               key={item.id}
-              className="border border-[#2A2A2A] bg-[#111111] rounded-[5px] overflow-hidden hover:border-[#A3E635]/30 transition-all duration-300"
+              className="border border-[#2A2A2A] bg-[#111111] rounded-[5px] overflow-hidden hover:border-[#A3E635]/30 transition-all duration-300 cursor-pointer"
+              onClick={() => handlePortfolioClick(item.label)}
             >
-              {/* Imagem */}
               <div className="relative w-full aspect-[918/923] md:aspect-[918/923] bg-[#0D0D0D]">
                 {item.image ? (
                   <Image
@@ -113,7 +121,6 @@ export function Cases() {
                 )}
               </div>
 
-              {/* Texto - tamanhos maiores */}
               <div className="p-5 md:p-6 space-y-4">
                 <div className="flex items-center gap-3 text-xs text-[#A0A0A0]">
                   <span className="text-[#2A2A2A] font-mono font-bold">0{item.id}</span>
