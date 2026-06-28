@@ -108,6 +108,35 @@ export default function RootLayout({
             `,
           }}
         />
+
+        {/* JSON-LD: Organization Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'Organization',
+              name: 'Mateus Hahn',
+              url: 'https://mateushahn.com',
+              logo: 'https://mateushahn.com/favicon.ico',
+              founder: {
+                '@type': 'Person',
+                name: 'Mateus Hahn',
+              },
+              sameAs: [
+                'https://github.com/mateushahndev',
+                'https://linkedin.com/in/mateushahndev',
+                'https://instagram.com/mateushahndev',
+              ],
+              email: 'contato@mateushahn.com',
+              address: {
+                '@type': 'PostalAddress',
+                addressLocality: 'Paraná',
+                addressCountry: 'BR',
+              },
+            }),
+          }}
+        />
       </body>
     </html>
   )

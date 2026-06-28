@@ -8,6 +8,26 @@ export const metadata = {
 export default function PoliticaPrivacidade() {
   return (
     <main className="min-h-screen bg-[#0D0D0D] text-white px-4 py-16 md:py-24">
+      {/* JSON-LD: WebPage Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'WebPage',
+            url: 'https://mateushahn.com/politica-privacidade',
+            name: 'Política de Privacidade | Mateus Hahn',
+            description:
+              'Política de privacidade do site Mateus Hahn. Saiba como seus dados são tratados.',
+            isPartOf: {
+              '@type': 'WebSite',
+              name: 'Mateus Hahn',
+              url: 'https://mateushahn.com',
+            },
+          }),
+        }}
+      />
+
       <div className="max-w-3xl mx-auto">
         {/* Cabeçalho */}
         <div className="mb-12">
@@ -64,7 +84,15 @@ export default function PoliticaPrivacidade() {
               <li>Solicitar correção ou exclusão dos seus dados</li>
               <li>Revogar seu consentimento a qualquer momento</li>
             </ul>
-            <p className="mt-2">Para exercer esses direitos, entre em contato: <a href="mailto:contato@mateushahn.com" className="text-[#A3E635] hover:underline">contato@mateushahn.com</a></p>
+            <p className="mt-2">
+              Para exercer esses direitos, entre em contato:{' '}
+              <a
+                href="mailto:contato@mateushahn.com"
+                className="text-[#A3E635] hover:underline"
+              >
+                contato@mateushahn.com
+              </a>
+            </p>
           </section>
 
           <section>
@@ -74,13 +102,24 @@ export default function PoliticaPrivacidade() {
 
           <section>
             <h2 className="text-xl font-semibold text-white mb-3">7. Contato</h2>
-            <p>Dúvidas sobre esta política? Escreva para <a href="mailto:contato@mateushahn.com" className="text-[#A3E635] hover:underline">contato@mateushahn.com</a>.</p>
+            <p>
+              Dúvidas sobre esta política? Escreva para{' '}
+              <a
+                href="mailto:contato@mateushahn.com"
+                className="text-[#A3E635] hover:underline"
+              >
+                contato@mateushahn.com
+              </a>
+              .
+            </p>
           </section>
         </div>
 
         {/* Rodapé da página */}
         <div className="mt-16 pt-8 border-t border-[#2A2A2A] text-sm text-[#A0A0A0]">
-          <Link href="/" className="text-[#A3E635] hover:underline">← Voltar para o site</Link>
+          <Link href="/" className="text-[#A3E635] hover:underline">
+            ← Voltar para o site
+          </Link>
         </div>
       </div>
     </main>

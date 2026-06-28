@@ -47,8 +47,8 @@ const jsonLd = {
       url: 'https://mateushahn.com',
       sameAs: [
         'https://github.com/mateushahndev',
-        'https://linkedin.com/in/mateushahn',
-        'https://instagram.com/mateushahn',
+        'https://linkedin.com/in/mateushahndev',
+        'https://instagram.com/mateushahndev',
       ],
       worksFor: {
         '@type': 'Organization',

@@ -1,0 +1,23 @@
+# Mateus Hahn — Criação de Sites para Pequenos Negócios
+
+Mateus Hahn é desenvolvedor web freelancer no Paraná, Brasil. Especializado em criação de sites profissionais para pequenos negócios locais.
+
+## Páginas principais
+
+- https://mateushahn.com/ — Landing page com serviços, cases e CTA
+- https://mateushahn.com/politica-privacidade — Política de Privacidade
+- https://mateushahn.com/termos-uso — Termos de Uso
+
+## Serviços
+
+- SEO local — site aparece no Google para buscas na cidade
+- Chatbot de IA 24h — assistente virtual incluso
+- Performance — sites que carregam em menos de 2 segundos
+- Design responsivo — funciona em qualquer celular
+- Hospedagem gratuita — sem mensalidade
+- GEO — otimizado para buscas com IA
+
+## Contato
+
+- WhatsApp: https://wa.me/5542998530633
+- E-mail: contato@mateushahn.com
