@@ -1,4 +1,4 @@
-// hooks/useScrollBottom.ts
+'use client'
 
 import { useEffect, useRef } from 'react'
 import { analytics } from '@/lib/analytics'

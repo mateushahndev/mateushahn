@@ -1,3 +1,5 @@
+'use client'
+
 import { Hero } from '@/components/landing/hero'
 import { Credibilidade } from '@/components/landing/credibilidade'
 import { Tese } from '@/components/landing/tese'
