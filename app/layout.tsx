@@ -10,7 +10,7 @@ const spaceGrotesk = Space_Grotesk({
 })
 
 export const metadata: Metadata = {
-  title: 'Mateus Hahn | Criação de Sites para Pequenos Negócios',
+  title: 'Mateus Hahn | Sites que vendem mais para o seu negócio',
   description:
     'Sites profissionais, rápidos e otimizados para o Google. Atendimento com chatbot de IA 24h e hospedagem gratuita. Atendo todo o Paraná.',
   keywords:
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Mateus Hahn | Criação de Sites para Pequenos Negócios',
+    title: 'Mateus Hahn | Sites que vendem mais para o seu negócio',
     description:
       'Sites profissionais, rápidos e otimizados para o Google. Atendimento com chatbot de IA 24h e hospedagem gratuita.',
     url: 'https://mateushahn.com',
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Mateus Hahn | Criação de Sites para Pequenos Negócios',
+    title: 'Mateus Hahn | Sites que vendem mais para o seu negócio',
     description:
       'Sites profissionais, rápidos e otimizados para o Google. Atendimento com chatbot de IA 24h.',
     images: ['https://mateushahn.com/og-image.jpg'],
