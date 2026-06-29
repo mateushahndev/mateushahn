@@ -8,22 +8,43 @@ export const metadata = {
 export default function PoliticaPrivacidade() {
   return (
     <main className="min-h-screen bg-[#0D0D0D] text-white px-4 py-16 md:py-24">
-      {/* JSON-LD: WebPage Schema */}
+      {/* JSON-LD: Breadcrumb + WebPage Schema */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             '@context': 'https://schema.org',
-            '@type': 'WebPage',
-            url: 'https://mateushahn.com/politica-privacidade',
-            name: 'Política de Privacidade | Mateus Hahn',
-            description:
-              'Política de privacidade do site Mateus Hahn. Saiba como seus dados são tratados.',
-            isPartOf: {
-              '@type': 'WebSite',
-              name: 'Mateus Hahn',
-              url: 'https://mateushahn.com',
-            },
+            '@graph': [
+              {
+                '@type': 'BreadcrumbList',
+                itemListElement: [
+                  {
+                    '@type': 'ListItem',
+                    position: 1,
+                    name: 'Início',
+                    item: 'https://mateushahn.com',
+                  },
+                  {
+                    '@type': 'ListItem',
+                    position: 2,
+                    name: 'Política de Privacidade',
+                    item: 'https://mateushahn.com/politica-privacidade',
+                  },
+                ],
+              },
+              {
+                '@type': 'WebPage',
+                url: 'https://mateushahn.com/politica-privacidade',
+                name: 'Política de Privacidade | Mateus Hahn',
+                description:
+                  'Política de privacidade do site Mateus Hahn. Saiba como seus dados são tratados.',
+                isPartOf: {
+                  '@type': 'WebSite',
+                  name: 'Mateus Hahn',
+                  url: 'https://mateushahn.com',
+                },
+              },
+            ],
           }),
         }}
       />
@@ -38,7 +59,7 @@ export default function PoliticaPrivacidade() {
           <p className="text-[#A0A0A0] text-sm mt-2">Última atualização: Junho de 2026</p>
         </div>
 
-        {/* Conteúdo */}
+        {/* Conteúdo - mantém o mesmo */}
         <div className="space-y-8 text-[#A0A0A0] text-base leading-relaxed">
           <p>A sua privacidade é importante para mim. Esta política explica como seus dados são tratados ao usar este site.</p>
 
