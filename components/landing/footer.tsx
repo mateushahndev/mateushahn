@@ -2,33 +2,43 @@ import Link from 'next/link'
 import { analytics } from '@/lib/analytics'
 
 export function Footer() {
+  const handleWhatsAppClick = () => {
+    analytics.whatsappClick('footer')
+  }
+
   return (
     <footer className="py-8 px-4 md:px-6 border-t border-[#2A2A2A]">
       <div className="max-w-6xl mx-auto text-center space-y-4">
-        <div className="flex justify-center gap-6 text-sm text-[#A0A0A0]">
+        <div className="flex flex-wrap justify-center gap-4 md:gap-6 text-sm text-[#A0A0A0]">
           <Link
-            href="https://wa.me/5542998530633?text=Ol%C3%A1%20Mateus%2C%20vim%20pelo%20seu%20site%20e%20gostaria%20de%20um%20or%C3%A7amento"
+            href="https://wa.me/5542998530633"
             target="_blank"
             rel="noopener noreferrer"
-            onClick={() => analytics.whatsappClick('footer')}
+            onClick={handleWhatsAppClick}
+            className="hover:text-[#A3E635] transition-colors"
           >
             WhatsApp
           </Link>
-          <Link 
-            href="mailto:contato@mateushahn.com" 
+          <Link
+            href="mailto:contato@mateushahn.com"
             className="hover:text-[#A3E635] transition-colors"
-            aria-label="Enviar e-mail para Mateus Hahn"
           >
             E-mail
           </Link>
-          <Link 
-            href="/politica-privacidade" 
+          <Link
+            href="/contato"
+            className="hover:text-[#A3E635] transition-colors"
+          >
+            Contato
+          </Link>
+          <Link
+            href="/politica-privacidade"
             className="hover:text-[#A3E635] transition-colors"
           >
             Privacidade
           </Link>
-          <Link 
-            href="/termos-uso" 
+          <Link
+            href="/termos-uso"
             className="hover:text-[#A3E635] transition-colors"
           >
             Termos
